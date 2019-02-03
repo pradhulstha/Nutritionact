@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "768131250549",
+    "firebase_url": "https://calorieapp-8c85f.firebaseio.com",
+    "project_id": "calorieapp-8c85f",
+    "storage_bucket": "calorieapp-8c85f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768131250549:android:7e1bc1e8f01a017b",
+        "android_client_info": {
+          "package_name": "com.example.nutritionacts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768131250549-u3a3kou58vdvjvlems9mt3lufan4lnh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbXB9hOmTn3r51VrnZy9QKgczpqm39ars"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
