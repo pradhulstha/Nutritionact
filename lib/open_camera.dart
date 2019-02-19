@@ -1,8 +1,10 @@
 import 'dart:io';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:nutritionacts/analyze_image.dart';
+import 'package:nutritionacts/nutrition_display.dart';
 
 class OpenCamera extends StatefulWidget {
   @override
@@ -94,6 +96,11 @@ class _OpenCameraState extends State<OpenCamera> {
   void _analyzeImage() async{
     Analyze analyzeObject = new Analyze();
     var labels = await analyzeObject.AnalyzeImage(_imageFile);
+
+    print("Label after Analyzation: " + labels);
+    await new Future.delayed(const Duration(milliseconds: 1000));
+    Navigator.push(context, CupertinoPageRoute(builder: (context) => DisplayNutrition(_imageFile, labels)));
+    
 
     print(labels);
   }

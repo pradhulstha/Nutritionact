@@ -21,6 +21,10 @@ dependencies:
   cupertino_icons: ^0.1.2
   image_picker:
   firebase_ml_vision:
+  firebase_database:
+  rxdart:
+  firebase_core:
+    
   
 dev_dependencies:
   flutter_test:

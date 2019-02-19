@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:nutritionacts/nutrition_display.dart';
 import 'analyze_image.dart';
 
 class OpenGallery extends StatefulWidget {
@@ -91,7 +92,10 @@ class _OpenGalleryState extends State<OpenGallery> {
   }
 
   Future _getImage() async {
-    _imageFile = null;
+    if(_imageFile != null){
+      _imageFile = null;
+    }
+    
     File imageFile = await ImagePicker.pickImage(source: ImageSource.gallery);
     if (imageFile != null) {
       setState(() {
@@ -102,10 +106,22 @@ class _OpenGalleryState extends State<OpenGallery> {
           SnackBar(content: Text('Please Select the image again')));
   }
 
-  void _analyzeImage() async{
-    Analyze analyzeObject = new Analyze();
-    var labels = await analyzeObject.AnalyzeImage(_imageFile);
+  Future _analyzeImage() async{
 
+    if (_imageFile != null) {
+      
+       Analyze analyzeObject = new Analyze();
+    var labels = await analyzeObject.AnalyzeImage(_imageFile);
+        //print("Label after Analyzation: " + labels);
+    await new Future.delayed(const Duration(milliseconds: 2500));
+    Navigator.push(context, CupertinoPageRoute(builder: (context) => DisplayNutrition(_imageFile, labels)));
+
+    
     print(labels);
+    } else
+      return _scaffoldKey.currentState.showSnackBar(
+          SnackBar(content: Text('Please Select the image again')));
+   
+
   }
 }

@@ -2,14 +2,14 @@ import 'dart:io';
 import 'package:firebase_ml_vision/firebase_ml_vision.dart';
 class Analyze{
 
-  Future<List<String>> AnalyzeImage(File imageFile) async{
-    List<String> labels = new List<String>();;
+  Future<String> AnalyzeImage(File imageFile) async{
+    List<String> labels = new List<String>();
     final FirebaseVisionImage visionImage =
     FirebaseVisionImage.fromFile(imageFile);
 
-    final LabelDetector labelDetector = FirebaseVision.instance.labelDetector();
+    final CloudLabelDetector labelDetector = FirebaseVision.instance.cloudLabelDetector(CloudDetectorOptions(maxResults: 3));
 
-    final currentLabel = await labelDetector.detectInImage(visionImage);
+    var currentLabel = await labelDetector.detectInImage(visionImage);
 
     if(currentLabel != null){
       
@@ -21,11 +21,15 @@ class Analyze{
         print("Labels: " + text);
         labels.add(text);
       }
+
     }
     else{
       throw Exception('Sorry! Could not analyze image!');
     }
-    return labels;
+
+    
+    return labels[1];
+    
   }
 
   
