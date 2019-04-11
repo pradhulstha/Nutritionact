@@ -1,6 +1,6 @@
 # Nutritionacts
 
-<a href="https://github.com/pradhulstha/Nutritionact/blob/master/NutritionactDocumentation.pdf">Read the Documentation </a>
+<a href="https://github.com/pradhulstha/Nutritionact/blob/master/NutritionactsDocumentation.pdf">Read the Documentation </a>
 
 
 App Overview: 
@@ -16,7 +16,7 @@ The Data will be then Displayed to the user
 Screenshot:
 
 
-<img src="https://github.com/pradhulstha/Nutritionact/blob/master/android/app/src/main/res/drawable/sample.gif" width="100" height="200" />
+<img src="https://github.com/pradhulstha/Nutritionact/blob/master/android/app/src/main/res/drawable/sample.gif" width="300" height="500" />
 
 ## Getting Started
 
