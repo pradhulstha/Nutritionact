@@ -15,7 +15,7 @@ The Data will be then Displayed to the user
 
 Screenshot:
 ![ALT Text](https://github.com/pradhulstha/Nutritionact/android/app/src/main/res/drawable/sample.gif)  
-<img src="https://github.com/pradhulstha/Nutritionact/android/app/src/main/res/drawable/sample.gif" width="40" height="40" />
+<img src="https://github.com/pradhulstha/Nutritionact/android/app/src/main/res/drawable/sample.gif" width="60" height="100" />
 
 ## Getting Started
 
