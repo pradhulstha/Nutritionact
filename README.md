@@ -1,6 +1,6 @@
 # Nutritionacts
 
-<a href="https://github.com/pradhulstha/Nutritionact/blob/master/android/app/src/main/res/drawable/sample.gif">Read the Documentation </a>
+<a href="https://github.com/pradhulstha/Nutritionact/blob/master/NutritionactDocumentation.pdf">Read the Documentation </a>
 
 
 App Overview: 
@@ -14,6 +14,8 @@ ML Model will analyze and after detection, call the Database or API to get the i
 The Data will be then Displayed to the user
 
 Screenshot:
+
+
 <img src="https://github.com/pradhulstha/Nutritionact/blob/master/android/app/src/main/res/drawable/sample.gif" width="100" height="200" />
 
 ## Getting Started
