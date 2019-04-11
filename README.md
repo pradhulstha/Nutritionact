@@ -1,6 +1,6 @@
 # Nutritionacts
 
-Read the Documentation: [Link to a file](NutritionactsDocumentation)
+Read the Documentation: [Link to a file](Nutritionact/NutritionactsDocumentation)
 
 
 App Overview: 
@@ -14,7 +14,7 @@ ML Model will analyze and after detection, call the Database or API to get the i
 The Data will be then Displayed to the user
 
 Screenshot:
-![ALT Text](https://github.com/pradhulstha/Nutritionact/NutritionactSample.gif)  
+![ALT Text](https://github.com/pradhulstha/nutritionact/NutritionactSample.gif)  
 
 ## Getting Started
 
