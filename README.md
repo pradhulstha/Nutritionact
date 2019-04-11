@@ -20,7 +20,7 @@ ML Model will analyze and after detection, call the Database or API to get the i
 The Data will be then Displayed to the user
 
 Screenshot:
-![alt text](https://github.com/pradhulstha/Nutritionact/Nutritionact.gif)  
+![ALT Text](https://github.com/pradhulstha/Nutritionact/Nutritionact.gif)  
 ## Getting Started
 
 This project is a starting point for a Flutter application.
