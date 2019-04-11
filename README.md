@@ -1,6 +1,6 @@
 # Nutritionacts
 
-Read the Documentation: 
+Read the Documentation: [Link to a file](NutritionactsDocumentation)
 
 
 App Overview: 
