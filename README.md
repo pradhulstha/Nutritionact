@@ -1,6 +1,6 @@
 # Nutritionacts
 
-<a href="https://github.com/pradhulstha/Nutritionact/blob/master/android/app/src/main/res/drawable/sample.gif"/>
+<a href="https://github.com/pradhulstha/Nutritionact/blob/master/android/app/src/main/res/drawable/sample.gif">Read the Documentation </a>
 
 
 App Overview: 
