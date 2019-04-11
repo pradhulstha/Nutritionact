@@ -14,7 +14,7 @@ ML Model will analyze and after detection, call the Database or API to get the i
 The Data will be then Displayed to the user
 
 Screenshot:
-![ALT Text](https://github.com/pradhulstha/Nutritionact/android/app/src/main/res/drawable/NutritionactSample.gif)  
+![ALT Text](https://github.com/pradhulstha/Nutritionact/android/app/src/main/res/drawable/sample.gif)  
 
 
 ## Getting Started
