@@ -1,13 +1,7 @@
 # Nutritionacts
 
-CONTENTS:
-App Overview
-Requirements
-Use Cases
-Conceptual Diagram
-Sequence Diagram
-Class Diagram
-TO-DO List
+Read the Documentation: 
+
 
 App Overview: 
 Nutritionacts is an Android and iOS app which will let user get nutritional facts or data about any food item by allowing user to take picture of the food or just by uploading it to the app. 
@@ -20,7 +14,8 @@ ML Model will analyze and after detection, call the Database or API to get the i
 The Data will be then Displayed to the user
 
 Screenshot:
-![ALT Text](https://github.com/pradhulstha/Nutritionact/Nutritionact.gif)  
+![ALT Text](https://github.com/pradhulstha/Nutritionact/NutritionactSample.gif)  
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
